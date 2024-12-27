@@ -1,0 +1,12 @@
+[project]
+name = "matplotlib-test"
+version = "0.1.0"
+description = "Matplotlib FastAPI demo with Thai language support"
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = [
+    "fastapi[all]",
+    "uvicorn",
+    "matplotlib",
+    "numpy"
+]
